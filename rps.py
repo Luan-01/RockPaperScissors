@@ -3,9 +3,11 @@
 #   https://realpython.com/python-rock-paper-scissors/
 
 import random
-   
+ While True:  
     user_action = input("Enter throw (rock, paper, scissors): ")
-
+    if user_action="quit":
+       print("Thanks for playing!")
+       break
     ai_action = random.choice(["rock", "paper", "scissors"])
 
     print(f"\nYou chose {user_action}, AI chose {ai_action}.\n")
