@@ -3,7 +3,7 @@
 #   https://realpython.com/python-rock-paper-scissors/
 
 import random
- While True:  
+ while True:  
     user_action = input("Enter throw (rock, paper, scissors): ")
     if user_action="quit":
        print("Thanks for playing!")
